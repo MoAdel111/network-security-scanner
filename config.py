@@ -1,0 +1,28 @@
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+OUTPUT_DIR = BASE_DIR / "outputs"
+SCANS_DIR = OUTPUT_DIR / "scans"
+REPORTS_DIR = OUTPUT_DIR / "reports"
+LOGS_DIR = OUTPUT_DIR / "logs"
+JSON_DIR = OUTPUT_DIR / "json"
+ASSETS_DIR = BASE_DIR / "assets"
+
+AUTO_CREATE_DIRS = True
+DELETE_RAW_SCANS_AFTER_RUN = False
+
+DISCOVERY_ENABLED = True
+SCAN_TOP_PORTS = 100
+NMAP_TIMING = "T4"
+NMAP_SERVICE_DETECTION = True
+EXCLUDE_HOSTS = set()
+
+PDF_ENABLED = True
+TEXT_REPORT_ENABLED = True
+JSON_REPORT_ENABLED = True
+
+AUTHORIZED_USE_ONLY = True
+
+SIGNATURE_ENABLED = True
+SIGNATURE_FILE = ASSETS_DIR / "signature.png"
