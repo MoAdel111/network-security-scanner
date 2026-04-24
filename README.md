@@ -58,6 +58,18 @@ network_security_scanner/
 
 ---
 
+## 📋 Prerequisites
+
+Before running the project, make sure you have:
+
+- Python 3.10 or higher
+- Nmap installed on your system
+
+To verify Nmap installation:
+
+```bash
+nmap --version
+
 ## ⚙️ Installation
 
 ```bash
@@ -71,8 +83,14 @@ pip install -r requirements.txt
 ## ⚡ Quick Start
 
 ```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Verify Nmap is installed
+nmap --version
+
+# Run the scanner
 py main.py
-```
 
 ---
 
