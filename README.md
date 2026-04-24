@@ -113,5 +113,7 @@ Do not scan networks without proper permission.
 
 ## 👨‍💻 Author
 
-Mohamed Elsayed
-Cybersecurity Analyst | Security+ Certified
+Mohamed Elsayed — Cybersecurity Analyst (Security+)
+
+- LinkedIn: https://www.linkedin.com/in/mohamed-elsayed-130797204/
+- GitHub: https://github.com/MoAdel111
