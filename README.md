@@ -31,6 +31,13 @@ It helps security analysts quickly assess network exposure and identify potentia
 * ReportLab
 * JSON
 
+## 📸 Sample Report Preview
+
+Below is a sanitized preview of the generated security report.  
+Sensitive details such as real IP addresses have been masked for safe public sharing.
+
+![Sample Report Preview](assets/sample_report.png)
+
 ---
 
 ## 📂 Project Structure
