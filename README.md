@@ -1,52 +1,92 @@
-# Automated Network Security Scanner & Reporting Tool
+# 🛡️ Network Security Scanner & Reporting Tool
 
-A Python-based automated network security scanning and reporting tool for defensive use.
+A Python-based automated network security scanning and reporting tool designed for defensive cybersecurity analysis.
 
 ---
 
 ## 📌 Overview
 
-The Automated Network Security Scanner & Reporting Tool is a lightweight cybersecurity solution designed to automate network scanning, risk analysis, and professional reporting.
+The **Network Security Scanner & Reporting Tool** is a lightweight yet powerful cybersecurity solution that automates network discovery, port scanning, risk classification, and professional report generation.
 
-- Discover devices on the network  
-- Scan open ports using Nmap  
-- Detect running services  
-- Classify security risks  
-- Generate professional reports (TXT, JSON, PDF)  
+It helps security analysts quickly assess network exposure and identify potential vulnerabilities.
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-- Automated network discovery  
-- Multi-target scanning  
-- Port and service detection  
-- Risk classification (High / Medium / Low)  
-- PDF dashboard-style reporting  
-- Custom signature branding  
+* 🔍 Automated network discovery
+* 🌐 Multi-target scanning
+* 🔓 Open ports and service detection using Nmap
+* ⚠️ Risk classification (High / Medium / Low / Unknown)
+* 📊 Professional dashboard-style PDF reports
+* 📁 Multiple output formats (TXT, JSON, PDF)
+* 🧠 Structured analysis and recommendations
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python  
-- Nmap  
-- ReportLab  
-- JSON  
+* Python
+* Nmap
+* ReportLab
+* JSON
 
 ---
 
-## 🚀 Installation
+## 📂 Project Structure
 
-Clone the repository:
+```
+network_security_scanner/
+│
+├── core/            # Scanning and analysis logic
+├── reports/         # Report generation (PDF, TXT)
+├── utils/           # Utilities (network, logging, discovery)
+├── outputs/         # Generated reports (ignored in Git)
+├── assets/          # Images and branding
+├── main.py          # Entry point
+├── config.py        # Configuration
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
 
 ```bash
-git clone <your-repo-link>
-cd network_security_scanner
+git clone https://github.com/MoAdel111/network-security-scanner.git
+cd network-security-scanner
+pip install -r requirements.txt
+```
 
+---
 
 ## ⚡ Quick Start
 
 ```bash
-pip install -r requirements.txt
 py main.py
+```
+
+---
+
+## 📊 Sample Output
+
+The tool generates:
+
+* ✔ Detailed TXT reports
+* ✔ Structured JSON reports
+* ✔ Professional PDF dashboards
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended for **educational and authorized security testing purposes only**.
+Do not scan networks without proper permission.
+
+---
+
+## 👨‍💻 Author
+
+Mohamed Elsayed
+Cybersecurity Analyst | Security+ Certified
